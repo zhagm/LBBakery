@@ -2,10 +2,6 @@
   background-image: url("https://static1.squarespace.com/static/577e6233414fb5812b9b90d4/t/577e64eed1758e97560882e7/1467901170046/IMG_0643.JPG");
   min-width: 100vw;
   min-height: 100vh;
-  /*background-size: cover;
-  background-repeat:no-repeat;
-  background-position: center center;*/
-
   background-position: center center;
   background-size: cover;
   background-attachment: scroll;
@@ -16,14 +12,6 @@
 .overlay {
   min-width: 100%;
   min-height: 100%;
-  /*z-index: -1;*/
-  /*background-color: rgba(255,255,255,.7);*/
   background-color: #1d1919;
   opacity: .9;
-  /*top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;*/
-  /*position: absolute;*/
-  /*border: 5px solid red;*/
 }

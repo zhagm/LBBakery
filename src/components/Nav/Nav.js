@@ -8,10 +8,11 @@ export default function Nav (props) {
     <div className={container}>
       <nav className={navContainer}>
         <ul>
-          <li><NavLink className={link} activeClassName='active' to='/'>{'Home'}</NavLink></li>
-        </ul>
-        <ul>
-          <li><Link to='/template' className={link}>{'Temp Page'}</Link></li>
+          <li><NavLink activeClassName='active' to='/template' className={link}>{'WELCOME'}</NavLink></li>
+          <li><NavLink activeClassName='active' to='/template' className={link}>{'MENU'}</NavLink></li>
+          <li><NavLink activeClassName='active' to='/template' className={link}>{'LOCATIONS'}</NavLink></li>
+          <li><NavLink activeClassName='active' to='/template' className={link}>{'ORDER'}</NavLink></li>
+          <li><NavLink activeClassName='active' to='/template' className={link}>{'CONTACT US'}</NavLink></li>
         </ul>
       </nav>
     </div>
