@@ -34,6 +34,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "production": "webpack -p",
+    "webpack": "webpack",
     "lint": "eslint src/.; exit 0",
     "lint-fix": "eslint --fix src/.; exit 0"
   },
