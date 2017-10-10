@@ -7,6 +7,9 @@
   background-attachment: scroll;
   background-repeat: no-repeat;
   display: flex;
+  margin-top: -50px;
+  position: relative;
+  z-index: -2;
 }
 
 .overlay {
@@ -14,4 +17,6 @@
   min-height: 100%;
   background-color: #1d1919;
   opacity: .9;
+  z-index: -1;
+  position: relative;
 }

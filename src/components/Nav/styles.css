@@ -4,8 +4,10 @@
   justify-content: center;
   color: #4a90e2;
   font-size: 13px;
-  background-color: #1d1919;
   font-family: 'Encode Sans Expanded', sans-serif;
+  /*font-family: 'Mukta', sans-serif;  height: 50px;*/
+  position: relative;
+  z-index: 3;
 }
 
 .navContainer {
