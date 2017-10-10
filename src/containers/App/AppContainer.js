@@ -13,7 +13,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Nav />
+          {/* <Nav /> */}
           <Switch>
             <Route exact={true} path='/' component={HomeContainer} />
             <Route path='/template' component={TemplateContainer} />
