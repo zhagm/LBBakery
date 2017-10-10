@@ -5,7 +5,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import { Nav } from 'components';
-import { HomeContainer, TemplateContainer } from 'containers';
+import { HomeContainer, TemplateContainer, MenuContainer } from 'containers';
 import * as thingActionCreators from 'redux/modules/thing';
 
 class App extends Component {
@@ -17,6 +17,7 @@ class App extends Component {
           <Switch>
             <Route exact={true} path='/' component={HomeContainer} />
             <Route path='/template' component={TemplateContainer} />
+            <Route path='/menu' component={MenuContainer} />
             <Route render={() => <h1>{'404'}</h1>} />
           </Switch>
         </div>

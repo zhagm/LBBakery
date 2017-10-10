@@ -5,7 +5,7 @@ html, body {
   padding: 0;
   height: 100%;
   width: 100%;
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #677f96;
 }
 
@@ -32,4 +32,12 @@ html, body {
 }
 
 .appWrap {
+  background-color: #1E1919;
+  width: 100vw;
+  min-height: calc(100vh - 50px);
+  display: flex;
+  margin-top: -50px;
+  position: relative;
+  z-index: -2;
+  padding-top: 50px;
 }
