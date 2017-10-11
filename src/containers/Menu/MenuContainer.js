@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-// import { Menu } from 'components';
+import { Menu } from 'components';
 import { appWrap } from 'sharedStyles/styles.css';
 
 class MenuContainer extends Component {
@@ -10,8 +10,7 @@ class MenuContainer extends Component {
   render () {
     return (
       <div className={appWrap}>
-        <p>hello</p>
-        {/* <Menu /> */}
+        <Menu />
       </div>
     );
   }

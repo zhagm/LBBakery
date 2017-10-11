@@ -1,7 +1,7 @@
 .homePage {
   background-image: url("https://static1.squarespace.com/static/577e6233414fb5812b9b90d4/t/577e64eed1758e97560882e7/1467901170046/IMG_0643.JPG");
   min-width: 100vw;
-  min-height: 100vh;
+  min-height: calc(100vh - 39px);
   background-position: center center;
   background-size: cover;
   background-attachment: scroll;
