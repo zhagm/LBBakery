@@ -5,7 +5,10 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import { Nav } from 'components';
-import { HomeContainer, TemplateContainer, MenuContainer } from 'containers';
+import {
+  HomeContainer, TemplateContainer, MenuContainer, OrderContainer,
+  LocationsContainer, ContactContainer, ErrorContainer
+} from 'containers';
 import * as thingActionCreators from 'redux/modules/thing';
 
 class App extends Component {
@@ -16,9 +19,11 @@ class App extends Component {
           <Nav />
           <Switch>
             <Route exact={true} path='/' component={HomeContainer} />
-            <Route path='/template' component={TemplateContainer} />
             <Route path='/menu' component={MenuContainer} />
-            <Route render={() => <h1>{'404'}</h1>} />
+            <Route path='/locations' component={LocationsContainer} />
+            <Route path='/order' component={OrderContainer} />
+            <Route path='/contact' component={ContactContainer} />
+            <Route component={ErrorContainer} />
           </Switch>
         </div>
       </BrowserRouter>
