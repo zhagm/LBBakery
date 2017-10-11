@@ -42,6 +42,17 @@ html, body {
   flex-direction: column;
   align-items: center;
 }
+/* come back change after dynamic menu */
+@media (max-width: 350px) {
+  .appWrap {
+    padding-top: 75px;
+  }
+}
+@media (max-width: 245px) {
+  .appWrap {
+    padding-top: 130px;
+  }
+}
 
 .footer {
   display: flex;
