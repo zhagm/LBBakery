@@ -6,7 +6,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lato', sans-serif;
-  color: #677f96;
+  color: #a39f9f;
 }
 
 .centeredContainer {
@@ -17,14 +17,14 @@ html, body {
 }
 
 .largeHeader {
-  color: #677f96;
+  color: #a39f9f;
   font-weight: 100;
   font-size: 100px;
   margin-bottom: 20px;
 }
 
 .subHeader {
-  color: #677f96;
+  color: #a39f9f;
   font-size: 35px;
   text-align: center;
   line-height: 55px;
@@ -79,4 +79,10 @@ html, body {
 
 .footer a:hover {
   color: #e7bd74;
+}
+
+.centerWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

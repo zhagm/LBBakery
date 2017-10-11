@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SubMenu, MenuNav } from 'components';
-import { menuWrap } from './styles.css';
+import { centerWrap } from 'sharedStyles/styles.css';
 
 export default class Menu extends Component {
   constructor(props) {
@@ -17,7 +17,7 @@ export default class Menu extends Component {
   }
   render () {
     return (
-      <div className={menuWrap}>
+      <div className={centerWrap}>
         <MenuNav sections={navArray} handleClick={this.changeActive} active={this.state.active}/>
         { props[this.state.active].map((sub, i, a) => (
           <SubMenu key={i} category={sub.category} items={sub.items} />
