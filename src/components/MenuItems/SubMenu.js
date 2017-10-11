@@ -5,7 +5,6 @@ import { MenuRows } from 'components';
 
 export default class SubMenu extends Component {
   render () {
-    console.log(this.props);
     return (
       <div className={subMenu}>
         <h2 className={title}>{this.props.category}</h2>

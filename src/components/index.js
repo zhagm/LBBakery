@@ -16,3 +16,4 @@ export Menu from './Menu/Menu';
 
 export SubMenu from './MenuItems/SubMenu';
 export MenuRows from './MenuItems/MenuRows';
+export MenuNav from './MenuItems/MenuNav';

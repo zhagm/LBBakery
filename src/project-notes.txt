@@ -1,0 +1,2 @@
+numb work:
+import rest of data from menu page into object in components/Menu/Menu.js
