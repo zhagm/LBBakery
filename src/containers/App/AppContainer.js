@@ -5,6 +5,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 
 import { Nav } from 'components';
+import { Footer } from 'components';
 import {
   HomeContainer, TemplateContainer, MenuContainer, OrderContainer,
   LocationsContainer, ContactContainer, ErrorContainer
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path='/contact' component={ContactContainer} />
             <Route component={ErrorContainer} />
           </Switch>
+          <Footer/>
         </div>
       </BrowserRouter>
     );

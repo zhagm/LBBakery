@@ -34,7 +34,7 @@ html, body {
 .appWrap {
   background-color: #1E1919;
   width: 100vw;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 50px - 39px);
   display: flex;
   margin-top: -50px;
   position: relative;
@@ -46,6 +46,7 @@ html, body {
   display: flex;
   justify-content: space-around;
   padding: 10px;
+  background-color: #1E1919;
 }
 
 .footer a {

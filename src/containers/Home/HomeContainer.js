@@ -9,6 +9,7 @@ export default function HomeContainer () {
         <div className={overlay}>
           <Home />
         </div>
-      </div></span>
+      </div>
+    </span>
   );
 }
