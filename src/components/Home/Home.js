@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   container, title, slogan, subHead, logo, infoLink, info, divideHr, desc
 } from './styles.css';
+import { footer } from 'components';
 
 export default class Home extends Component {
   render () {
@@ -21,6 +22,7 @@ export default class Home extends Component {
           <hr className={divideHr} />
           <p className={desc}>{'We are a European artisan bakery located in Maryland. Our priority is to bring you authentic quality European baked goods at an affordable price.'}</p>
         </div>
+        <footer />
       </div>
     );
   }
