@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { centerWrap } from 'sharedStyles/styles.css';
-import { paragraph, lightHr } from './styles.css';
+import { paragraph, lightHr, infoLink } from './styles.css';
 import { SubMenu, MenuNav } from 'components';
 
 export default class Order extends Component {
@@ -21,9 +21,12 @@ export default class Order extends Component {
         <h1>{'WE NOW ACCEPT ORDERS'}</h1>
         <div className={paragraph}>
           <p>We currently only take orders for sandwiches at our main location in Rockville. To order, please click here. </p>
-          <p>For other, more specific orders please order by calling: <b>(240)-360-3697</b>.</p>
+          <br/>
+          <p>For other, more specific orders please order by calling: <b><a className={infoLink} href="tel:+1-240-360-3698">(240)-360-3698</a></b>.</p>
           <hr className={lightHr}/>
-          <p>Some items are exclusive to orders and cannot be found on our regular menu. They can be found below. Order these through the phone number. The minimum order quantity is 10 pieces for any item under $5. </p>
+          <p>Some items are exclusive to orders and cannot be found on our regular menu.
+            They can be found below. Order these through the phone number. </p>
+          <p><b>The minimum order quantity is 10 pieces for any item under $5.</b></p>
         </div>
         <MenuNav sections={navArray} handleClick={this.changeActive} active={this.state.active}/>
         { menu[this.state.active].map((sub, i, a) => (

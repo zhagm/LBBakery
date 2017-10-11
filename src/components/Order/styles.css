@@ -13,4 +13,12 @@
 .lightHr {
   color: #bbb;
   opacity: 0.2;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.infoLink {
+  color: #c2c2c2;
+  text-decoration: none;
+  text-transform: none;
 }
