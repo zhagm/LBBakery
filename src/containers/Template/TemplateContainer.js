@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Template } from 'components';
+import { appWrap } from 'sharedStyles/styles.css';
 
 class TemplateContainer extends Component {
   constructor () {
@@ -8,7 +9,9 @@ class TemplateContainer extends Component {
   }
   render () {
     return (
-      <Template />
+      <div className={appWrap}>
+        <Template />
+      </div>
     );
   }
 }

@@ -41,3 +41,28 @@ html, body {
   z-index: -2;
   padding-top: 50px;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.footer a {
+  color: #999797;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+
+  line-height: 1.5em;
+  text-decoration: none;
+  letter-spacing: .3em;
+  font-weight: 300;
+  font-style: normal;
+
+  list-style-type: none;
+}
+
+.footer a:hover {
+  color: #e7bd74;
+}
