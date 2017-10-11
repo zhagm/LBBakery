@@ -19,7 +19,7 @@ export default class Menu extends Component {
     return (
       <div className={centerWrap}>
         <MenuNav sections={navArray} handleClick={this.changeActive} active={this.state.active}/>
-        { props[this.state.active].map((sub, i, a) => (
+        { menu[this.state.active].map((sub, i, a) => (
           <SubMenu key={i} category={sub.category} items={sub.items} />
         ))}
       </div>
@@ -28,7 +28,7 @@ export default class Menu extends Component {
 }
 
 let navArray = ['Pastries', 'Tarts & Cakes', 'Savory Baked Goods', 'Breads', 'Sandwiches', 'Beverages', 'Deals'];
-let props =
+let menu =
 {
   'Pastries': [
     {
