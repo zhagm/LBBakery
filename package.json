@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "firebase": "^4.5.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-redux": "^5.0.6",
@@ -32,7 +33,10 @@
     "webpack-dev-server": "^2.9.1"
   },
   "scripts": {
+    "firebase-init": "firebase login && firebase init",
+    "deploy": "npm run build && firebase deploy",
     "dev": "webpack-dev-server",
+    "build": "NODE_ENV='production' webpack -p",
     "production": "webpack -p",
     "webpack": "webpack",
     "lint": "eslint src/.; exit 0",

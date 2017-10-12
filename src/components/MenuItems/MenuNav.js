@@ -4,7 +4,6 @@ import { navigation, active } from './styles.css';
 
 export default class MenuNav extends Component {
   render () {
-    console.log(active);
     return (
       <div className={navigation}>
         <ul>
