@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { centerWrap } from 'sharedStyles/styles.css';
-import { paragraph, lightHr, infoLink } from './styles.css';
+import { paragraph, lightHr, infoLink, title } from './styles.css';
 import { SubMenu, MenuNav } from 'components';
 
 export default class Order extends Component {
@@ -18,7 +18,7 @@ export default class Order extends Component {
   render () {
     return (
       <div className={centerWrap}>
-        <h1>{'WE NOW ACCEPT ORDERS'}</h1>
+        <h1 className={title}>{'WE NOW ACCEPT ORDERS'}</h1>
         <div className={paragraph}>
           <p>We currently only take orders for sandwiches at our main location in Rockville. To order, please click here. </p>
           <br/>
