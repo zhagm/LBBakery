@@ -75,6 +75,7 @@ html, body {
   font-style: normal;
 
   list-style-type: none;
+  transition: color .5s;
 }
 
 .footer a:hover {

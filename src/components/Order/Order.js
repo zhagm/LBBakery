@@ -22,7 +22,7 @@ export default class Order extends Component {
         <div className={paragraph}>
           <p>We currently only take orders for sandwiches at our main location in Rockville. To order, please click here. </p>
           <br/>
-          <p>For other, more specific orders please order by calling: <b><a className={infoLink} href="tel:+1-240-360-3698">(240)-360-3698</a></b>.</p>
+          <p>For other, more specific orders please order by calling: <b><a className={infoLink} href="tel:+1-240-360-3697">(240)-360-3697</a></b>.</p>
           <hr className={lightHr}/>
           <p>Some items are exclusive to orders and cannot be found on our regular menu.
             They can be found below. Order these through the phone number. </p>

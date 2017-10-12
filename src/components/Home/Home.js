@@ -14,7 +14,7 @@ export default class Home extends Component {
           <a className={infoLink} target='_tab' href="https://www.google.com/maps/place/La+Bohemia+Bakery/@39.0579941,-77.114542,17z/data=!3m1!4b1!4m5!3m4!1s0x89b7cc2d37b3812f:0x1d1978c156ca652b!8m2!3d39.05799!4d-77.112348">
             5540 Wilkins Court, Rockville, MD, 20852
           </a>
-          <a className={infoLink} href="tel:+1-240-360-3698">(240)-360-3698</a>
+          <a className={infoLink} href="tel:+1-240-360-3697">(240)-360-3697</a>
           <a className={infoLink} target='_tab' href="mailto:labohemia@lbbakery.com">
             labohemia@lbbakery.com
           </a>
