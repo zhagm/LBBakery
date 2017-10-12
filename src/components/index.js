@@ -9,6 +9,7 @@ export Footer from './Footer/Footer';
 export Contact from './Contact/Contact';
 
 export Locations from './Locations/Locations';
+export Location from './Locations/Location';
 
 export Order from './Order/Order';
 

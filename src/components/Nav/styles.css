@@ -51,6 +51,7 @@
 .link {
   color: #999797;
   text-decoration: none;
+  transition: color .8s;
 }
 
 .link:hover {
@@ -59,4 +60,5 @@
 
 .active {
   color: #EBEAEA;
+  transition: color .1s;
 }
